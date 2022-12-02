@@ -37,20 +37,19 @@ public class PlayerMovement : MonoBehaviour
         newPos += direction * Time.deltaTime * speed;
         transform.position = newPos;
 
-        if (direction.x != 0 || direction.z != 0)
-        {
-            SetAnimatorMovement(direction);
-        }
-        else
-        {
-            animator.SetLayerWeight(1, 0);
-        }
-
+        //if (direction.x != 0 || direction.z != 0)
+        //{
+        SetAnimatorMovement(direction);
+        //}
+        //else
+        //{
+        //animator.SetLayerWeight(1, 0);
+        //}
     }
 
     private void SetAnimatorMovement(Vector3 direction)
     {
-        animator.SetLayerWeight(1, 1);
+        //animator.SetLayerWeight(1, 1);
         animator.SetFloat("xDir", direction.x);
         animator.SetFloat("zDir", direction.z);
     }
