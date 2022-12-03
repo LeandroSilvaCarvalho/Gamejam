@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: map layer
+    uniqueID: 1163812415
+    locked: 0
+  - name: black layer
+    uniqueID: 1712055051
+    locked: 0
+  - name: player layer
+    uniqueID: 1239463877
     locked: 0
