@@ -43385,6 +43385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Air (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5389692012555448372, guid: 62c1ed13340cb41f69f66e110fa8af70, type: 3}
+      propertyPath: itemManager
+      value: 
+      objectReference: {fileID: 1212544766}
     - target: {fileID: 7849905047217378290, guid: 62c1ed13340cb41f69f66e110fa8af70, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -49603,6 +49607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1212544765}
   - component: {fileID: 1212544764}
+  - component: {fileID: 1212544766}
   m_Layer: 0
   m_Name: TriggerNextZone
   m_TagString: Untagged
@@ -49638,6 +49643,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1212544766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212544763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c3c0f0d5f5e44b19e7e1719a03ec2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1212673106
 GameObject:
   m_ObjectHideFlags: 0
@@ -53728,6 +53745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Air (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5389692012555448372, guid: 62c1ed13340cb41f69f66e110fa8af70, type: 3}
+      propertyPath: itemManager
+      value: 
+      objectReference: {fileID: 1212544766}
     - target: {fileID: 7849905047217378290, guid: 62c1ed13340cb41f69f66e110fa8af70, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -80216,6 +80237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 928e269ec974c40e3b47b73647802b44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemManager: {fileID: 1212544766}
 --- !u!4 &2024375674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8909720740535982708, guid: d2dcce98e3ee3429995950248c011569, type: 3}
@@ -85714,6 +85736,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6886948638846585526, guid: 021e3322ba80945338e808b3d05aa309, type: 3}
+      propertyPath: itemManager
+      value: 
+      objectReference: {fileID: 1212544766}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 021e3322ba80945338e808b3d05aa309, type: 3}
 --- !u!1001 &2940416985161702100
@@ -85784,6 +85810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Air
       objectReference: {fileID: 0}
+    - target: {fileID: 5389692012555448372, guid: 62c1ed13340cb41f69f66e110fa8af70, type: 3}
+      propertyPath: itemManager
+      value: 
+      objectReference: {fileID: 1212544766}
     - target: {fileID: 7849905047217378290, guid: 62c1ed13340cb41f69f66e110fa8af70, type: 3}
       propertyPath: m_RootOrder
       value: 29

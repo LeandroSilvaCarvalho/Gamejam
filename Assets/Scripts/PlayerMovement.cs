@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Animations;
@@ -20,6 +21,11 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         TakeInput();
+        
+    }
+
+    private void FixedUpdate()
+    {
         Move();
     }
 
