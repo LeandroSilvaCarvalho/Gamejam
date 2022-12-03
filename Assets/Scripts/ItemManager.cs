@@ -7,6 +7,8 @@ public class ItemManager : MonoBehaviour
 {
     
     private static int nbItemsCOllected = 0;
+    [SerializeField] private GameObject creature;
+    [SerializeField] private Sprite newSprite;
     public static ItemManager Instance { get; private set; }
     private void Awake() 
     { 
@@ -27,6 +29,7 @@ public class ItemManager : MonoBehaviour
         if (nbItemsCOllected >= 5)
         {
             Debug.Log("Nice");
+            creature.gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
         }
         else
         {
