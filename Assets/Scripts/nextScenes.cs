@@ -9,13 +9,13 @@ public class nextScenes : MonoBehaviour
     public string nameNextScene;
 
     // Update is called once per frame
-    /*private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneBuildIndex);
+            SceneManager.LoadScene(nameNextScene);
         }
-    }*/
+    }
 
     private void OnTriggerEnter(Collider other)
     {
