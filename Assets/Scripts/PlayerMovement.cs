@@ -46,7 +46,10 @@ public class PlayerMovement : MonoBehaviour
         //newPos += direction * Time.deltaTime * speed;
         //transform.position = newPos;
         //rigidbody.MovePosition(transform.position + direction * Time.fixedDeltaTime *speed);
-        rigidbody.velocity = direction * speed;
+        var vY = rigidbody.velocity.y;
+        var v = direction * speed;
+        v.y = vY;
+        rigidbody.velocity = v;
         //rigidbody.AddForce(new Vector3(0,-7,0)*speed,ForceMode.Acceleration);
         
 
