@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Animations;
@@ -7,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     private Animator animator;
+    private Rigidbody rigidbody;
 
     private Vector3 direction;
 
@@ -14,10 +16,17 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
+    {
+        
+        
+    }
+
+    private void FixedUpdate()
     {
         TakeInput();
         Move();
@@ -33,9 +42,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        var newPos = transform.position;
-        newPos += direction * Time.deltaTime * speed;
-        transform.position = newPos;
+        //var newPos = transform.position;
+        //newPos += direction * Time.deltaTime * speed;
+        //transform.position = newPos;
+        //rigidbody.MovePosition(transform.position + direction * Time.fixedDeltaTime *speed);
+        rigidbody.velocity = direction * speed;
+        //rigidbody.AddForce(new Vector3(0,-7,0)*speed,ForceMode.Acceleration);
+        
 
         //if (direction.x != 0 || direction.z != 0)
         //{
