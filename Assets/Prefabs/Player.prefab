@@ -13,11 +13,10 @@ GameObject:
   - component: {fileID: 7530472075516039137}
   - component: {fileID: 7530472075516039138}
   - component: {fileID: 7530472075516039139}
-  - component: {fileID: 2635716366825335387}
   - component: {fileID: 3998748033412294543}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,24 +130,10 @@ BoxCollider:
   m_GameObject: {fileID: 7530472075516039140}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 6.0533447, y: 8.720459, z: 1}
   m_Center: {x: 0.14318848, y: -1.8786278, z: 0}
---- !u!136 &2635716366825335387
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7530472075516039140}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 2.8559418
-  m_Height: 11.841268
-  m_Direction: 1
-  m_Center: {x: 0.18165588, y: 0, z: 0.046936035}
 --- !u!54 &3998748033412294543
 Rigidbody:
   m_ObjectHideFlags: 0
