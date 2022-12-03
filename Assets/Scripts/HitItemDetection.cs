@@ -10,7 +10,7 @@ public class HitItemDetection : MonoBehaviour
     {
         itemManager.IncrementItem();
         Destroy(this.gameObject);
-        Debug.Log(itemManager.GetNbItemsCollected());
+        //Debug.Log(itemManager.GetNbItemsCollected());
     }
 
 }

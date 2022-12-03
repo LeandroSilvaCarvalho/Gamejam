@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     private Animator animator;
-    private Rigidbody rigidbody;
+    private Rigidbody _rigidbody;
 
     private Vector3 direction;
 
@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        rigidbody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -46,7 +46,10 @@ public class PlayerMovement : MonoBehaviour
         //newPos += direction * Time.deltaTime * speed;
         //transform.position = newPos;
         //rigidbody.MovePosition(transform.position + direction * Time.fixedDeltaTime *speed);
-        rigidbody.velocity = direction * speed;
+        var vY = _rigidbody.velocity.y;
+        var v = direction * speed;
+        v.y = vY;
+        _rigidbody.velocity = v;
         //rigidbody.AddForce(new Vector3(0,-7,0)*speed,ForceMode.Acceleration);
         
 
