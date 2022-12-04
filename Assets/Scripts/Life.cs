@@ -19,7 +19,6 @@ public class Life : MonoBehaviour
         {
             
             hp = hp + 1;
-            Debug.Log(hp);
             //Destroy(other.gameObject);
         }
     }
