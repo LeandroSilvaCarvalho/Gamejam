@@ -8,6 +8,7 @@ public class ItemManager : MonoBehaviour
     private static int nbItemsCOllected = 0;
     [SerializeField] private GameObject creature;
     [SerializeField] private Sprite newSprite;
+    [SerializeField] private TextValue _textValue;
     private bool creatureRevealed = false;
     public static ItemManager Instance { get; private set; }
 
@@ -62,6 +63,7 @@ public class ItemManager : MonoBehaviour
     public void IncrementItem()
     {
         nbItemsCOllected++;
+        _textValue.UpdateText(nbItemsCOllected);
     }
 
     public int GetNbItemsCollected()
