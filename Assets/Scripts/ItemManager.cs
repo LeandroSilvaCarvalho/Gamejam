@@ -36,7 +36,8 @@ public class ItemManager : MonoBehaviour
                 if (creature != null)
                 {
                     creature.gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
-                    StartCoroutine(WaitAndDestroyCreature(10f));
+                    StartCoroutine(WaitCreature(0.5f));
+                    
                 }
             }
             else
@@ -60,6 +61,12 @@ public class ItemManager : MonoBehaviour
         yield return new WaitForSeconds(sec);
         Destroy(creature.gameObject);
         creatureRevealed = false;
+    }
+
+    private IEnumerator WaitCreature(float sec)
+    {
+        yield return new WaitForSeconds(sec);
+        StartCoroutine(WaitAndDestroyCreature(10f));
     }
 
     public void IncrementItem()
