@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4495529, g: 0.4996277, b: 0.5756707, a: 1}
+  m_IndirectSpecularColor: {r: 0.44955206, g: 0.49962664, b: 0.57566893, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12277,6 +12277,8 @@ GameObject:
   - component: {fileID: 608500693}
   - component: {fileID: 608500692}
   - component: {fileID: 608500691}
+  - component: {fileID: 608500696}
+  - component: {fileID: 608500695}
   m_Layer: 0
   m_Name: finalboss
   m_TagString: Untagged
@@ -12363,6 +12365,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 60.5, y: 180, z: 0}
+--- !u!114 &608500695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608500690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b32234822c7447c9939585509a1699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameNextScene: Outro
+--- !u!65 &608500696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608500690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000005, y: 7.74603, z: 16.589678}
+  m_Center: {x: 0, y: 1.4309015, z: 3.2948523}
 --- !u!1 &616175995
 GameObject:
   m_ObjectHideFlags: 0
