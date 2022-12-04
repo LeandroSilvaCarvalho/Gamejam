@@ -13,4 +13,9 @@ public class HitItemDetection : MonoBehaviour
         //Debug.Log(itemManager.GetNbItemsCollected());
     }
 
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        itemManager.IncrementItem();
+        Destroy(this.gameObject);
+    }
 }

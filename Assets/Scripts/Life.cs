@@ -17,8 +17,9 @@ public class Life : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Water"))
         {
+            
             hp = hp + 1;
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
         }
     }
     void Update()

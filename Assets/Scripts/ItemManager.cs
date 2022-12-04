@@ -8,6 +8,7 @@ public class ItemManager : MonoBehaviour
     private static int nbItemsCOllected = 0;
     [SerializeField] private GameObject creature;
     [SerializeField] private Sprite newSprite;
+    [SerializeField] private TextValue _textValue;
     private bool creatureRevealed = false;
     public static ItemManager Instance { get; private set; }
 
@@ -32,9 +33,11 @@ public class ItemManager : MonoBehaviour
             if (nbItemsCOllected >= 5)
             {
                 //Debug.Log("Nice");
-
-                creature.gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
-                StartCoroutine(WaitAndDestroyCreature(10f));
+                if (creature != null)
+                {
+                    creature.gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+                    StartCoroutine(WaitAndDestroyCreature(10f));
+                }
             }
             else
             {
@@ -47,7 +50,7 @@ public class ItemManager : MonoBehaviour
     {
         if (creatureRevealed)
         {
-            creature.transform.Translate(Vector3.left/3);
+            creature.transform.Translate(Vector3.left / 3);
         }
     }
 
@@ -62,6 +65,11 @@ public class ItemManager : MonoBehaviour
     public void IncrementItem()
     {
         nbItemsCOllected++;
+        if (nbItemsCOllected > 5)
+        {
+            nbItemsCOllected = 1;
+        }
+        _textValue.UpdateText(nbItemsCOllected);
     }
 
     public int GetNbItemsCollected()

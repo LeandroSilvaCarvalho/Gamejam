@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1880279499116595354}
   - component: {fileID: 1880279499116595355}
+  - component: {fileID: 1453897948268045641}
   m_Layer: 0
   m_Name: Sakura
   m_TagString: Untagged
@@ -73,14 +74,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3ad0c648147064bdbb9a6c175a80360e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f2a54c1e7590bf94d85fe24af697f369, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 24.800001, y: 24.800001}
+  m_Size: {x: 24.8, y: 24.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!136 &1453897948268045641
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880279499116595348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.08
+  m_Height: 7.02
+  m_Direction: 1
+  m_Center: {x: -4.14, y: -7.79, z: 0.06}
