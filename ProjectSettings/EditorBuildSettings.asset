@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 7c7abde79a5a64efe97f67f702857bbe
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: c9266a5acdf294d4c8fc243817615192
+  - enabled: 1
     path: Assets/Scenes/BaseArea.unity
     guid: 5e70bd5ab3a6b496a803b9e69a89f42f
-  - enabled: 1
-    path: Assets/Scenes/2dMAZE.unity
-    guid: 20229b758997e469194bab622f680b10
   - enabled: 1
     path: Assets/Scenes/CaveArea.unity
     guid: a1bc37fe14bd2bb4c8ad8f412bed0ff6
@@ -18,15 +21,12 @@ EditorBuildSettings:
     path: Assets/Scenes/FallArea.unity
     guid: 328f3b9db05d6f84cb69901dc8b95f34
   - enabled: 1
+    path: Assets/Scenes/2dMAZE.unity
+    guid: 20229b758997e469194bab622f680b10
+  - enabled: 1
     path: Assets/Scenes/FinalArea.unity
     guid: e874d830bc0a8534091278a5c3f77fab
   - enabled: 1
-    path: Assets/Scenes/StartScene.unity
-    guid: 7c7abde79a5a64efe97f67f702857bbe
-  - enabled: 1
     path: Assets/Scenes/Outro.unity
     guid: 48f521258f8150c4c928b5a1ca31d9c5
-  - enabled: 1
-    path: Assets/Scenes/Intro.unity
-    guid: c9266a5acdf294d4c8fc243817615192
   m_configObjects: {}
