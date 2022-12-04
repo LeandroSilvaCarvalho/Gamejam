@@ -1364,7 +1364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7530472075516039167, guid: 1c0a2959b7f9b42518b13d55d0f72f4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.48
+      value: 5.94
       objectReference: {fileID: 0}
     - target: {fileID: 7530472075516039167, guid: 1c0a2959b7f9b42518b13d55d0f72f4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15903,8 +15903,8 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.5
-      minScalar: 0.4
+      scalar: 0.4
+      minScalar: 0.3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -16335,7 +16335,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 985
+    maxNumParticles: 41
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 1
@@ -17922,7 +17922,7 @@ ParticleSystem:
     x:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4.34
+      scalar: 2
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -17975,7 +17975,7 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: -2
       minScalar: 0
       maxCurve:
         serializedVersion: 2
