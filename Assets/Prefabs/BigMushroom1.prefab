@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1880279499116595354}
   - component: {fileID: 1880279499116595355}
+  - component: {fileID: 1901200454566420968}
   m_Layer: 0
   m_Name: BigMushroom1
   m_TagString: Untagged
@@ -84,3 +85,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!136 &1901200454566420968
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880279499116595348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 6.87
+  m_Height: 20.48
+  m_Direction: 1
+  m_Center: {x: 0.48, y: 0, z: 0}

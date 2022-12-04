@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7363945420836702032}
   - component: {fileID: 7363945420836702033}
+  - component: {fileID: 6915832399208636299}
   m_Layer: 0
   m_Name: Statue2
   m_TagString: Untagged
@@ -84,3 +85,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!136 &6915832399208636299
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7363945420836702038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 7.36
+  m_Height: 24.802656
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
