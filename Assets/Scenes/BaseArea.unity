@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44955206, g: 0.49962664, b: 0.57566893, a: 1}
+  m_IndirectSpecularColor: {r: 0.4495529, g: 0.4996277, b: 0.5756707, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20266,9 +20266,9 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: -55.7, y: -12, z: -57.02}
+    m_Position: {x: -150.4, y: -32.6, z: -56.2}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 375.9, y: 32.8, z: 276.7}
+    m_Scale: {x: 231.97, y: 32.8, z: 276.7}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
