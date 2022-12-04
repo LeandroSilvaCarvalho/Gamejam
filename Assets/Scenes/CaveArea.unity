@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4495529, g: 0.4996277, b: 0.5756707, a: 1}
+  m_IndirectSpecularColor: {r: 0.44955206, g: 0.49962664, b: 0.57566893, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4883,6 +4883,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2976983342727538332, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
+      propertyPath: itemManager
+      value: 
+      objectReference: {fileID: 749171425}
     - target: {fileID: 5642557372365689871, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
       propertyPath: m_Name
       value: elementearth
@@ -5632,8 +5636,9 @@ GameObject:
   - component: {fileID: 1897468204}
   - component: {fileID: 1897468203}
   - component: {fileID: 1897468202}
+  - component: {fileID: 1897468206}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: NextZoneTeleport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5647,7 +5652,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897468201}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -5718,6 +5723,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1897468206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897468201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b32234822c7447c9939585509a1699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameNextScene: FallArea
 --- !u!1001 &1905879031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5789,6 +5807,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 41.3
       objectReference: {fileID: 0}
+    - target: {fileID: 6886948638846585526, guid: 021e3322ba80945338e808b3d05aa309, type: 3}
+      propertyPath: itemManager
+      value: 
+      objectReference: {fileID: 749171425}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 021e3322ba80945338e808b3d05aa309, type: 3}
 --- !u!1001 &1929662570
