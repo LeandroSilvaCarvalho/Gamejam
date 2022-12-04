@@ -65,6 +65,10 @@ public class ItemManager : MonoBehaviour
     public void IncrementItem()
     {
         nbItemsCOllected++;
+        if (nbItemsCOllected > 5)
+        {
+            nbItemsCOllected = 1;
+        }
         _textValue.UpdateText(nbItemsCOllected);
     }
 
