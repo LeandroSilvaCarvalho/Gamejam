@@ -5424,7 +5424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10b32234822c7447c9939585509a1699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameNextScene: 
+  nameNextScene: FallArea
 --- !u!65 &1804942902
 BoxCollider:
   m_ObjectHideFlags: 0
