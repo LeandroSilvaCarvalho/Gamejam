@@ -17633,6 +17633,14 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7530472075516039137, guid: 1c0a2959b7f9b42518b13d55d0f72f4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2134349186, guid: 1f7078f5bb94e47c68e5f26702bcc1a4, type: 3}
+    - target: {fileID: 7530472075516039137, guid: 1c0a2959b7f9b42518b13d55d0f72f4a, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7530472075516039138, guid: 1c0a2959b7f9b42518b13d55d0f72f4a, type: 3}
       propertyPath: speed
       value: 25
