@@ -20,6 +20,10 @@ public class IntroManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.anyKey)
+        {
+            StopCoroutine(AfterIntro());
+            SceneManager.LoadScene(newScene);
+        }
     }
 }

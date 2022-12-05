@@ -815,6 +815,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2976983342727538332, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
+    - target: {fileID: 2976983342727538332, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
       propertyPath: itemManager
       value: 
       objectReference: {fileID: 749171425}
@@ -1182,6 +1186,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2976983342727538332, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
     - target: {fileID: 2976983342727538332, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
       propertyPath: itemManager
       value: 
@@ -4949,6 +4957,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2976983342727538332, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
+    - target: {fileID: 2976983342727538332, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
       propertyPath: itemManager
       value: 
       objectReference: {fileID: 749171425}
@@ -5397,6 +5409,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2976983342727538332, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
     - target: {fileID: 2976983342727538332, guid: 8382882bcec4a824185f063899c29d2c, type: 3}
       propertyPath: itemManager
       value: 
@@ -5872,6 +5888,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 41.3
       objectReference: {fileID: 0}
+    - target: {fileID: 6886948638846585526, guid: 021e3322ba80945338e808b3d05aa309, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
     - target: {fileID: 6886948638846585526, guid: 021e3322ba80945338e808b3d05aa309, type: 3}
       propertyPath: itemManager
       value: 
@@ -11043,7 +11063,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: -90, y: -93.9, z: 0}
 --- !u!1 &2005818209
 GameObject:

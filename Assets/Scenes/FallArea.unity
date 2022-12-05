@@ -9535,6 +9535,10 @@ PrefabInstance:
       value: Fire (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4614167570253141004, guid: 82d0e0123ef85584ba2cd2793e3e86bd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
+    - target: {fileID: 4614167570253141004, guid: 82d0e0123ef85584ba2cd2793e3e86bd, type: 3}
       propertyPath: itemManager
       value: 
       objectReference: {fileID: 250225887}
@@ -22241,6 +22245,10 @@ PrefabInstance:
       value: Fire (4)
       objectReference: {fileID: 0}
     - target: {fileID: 4614167570253141004, guid: 82d0e0123ef85584ba2cd2793e3e86bd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
+    - target: {fileID: 4614167570253141004, guid: 82d0e0123ef85584ba2cd2793e3e86bd, type: 3}
       propertyPath: itemManager
       value: 
       objectReference: {fileID: 250225887}
@@ -25481,6 +25489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemManager: {fileID: 250225887}
+  audioSource: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
 --- !u!82 &1852341467
 AudioSource:
   m_ObjectHideFlags: 0
@@ -26444,6 +26453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4614167570253141004, guid: 82d0e0123ef85584ba2cd2793e3e86bd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
     - target: {fileID: 4614167570253141004, guid: 82d0e0123ef85584ba2cd2793e3e86bd, type: 3}
       propertyPath: itemManager
       value: 
@@ -28272,6 +28285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4614167570253141004, guid: 82d0e0123ef85584ba2cd2793e3e86bd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 8300000, guid: d247bbb4f03bf6f4aa4b86a6a8b8fb55, type: 3}
     - target: {fileID: 4614167570253141004, guid: 82d0e0123ef85584ba2cd2793e3e86bd, type: 3}
       propertyPath: itemManager
       value: 
